@@ -51,7 +51,7 @@ li a {
 .container {
     margin: 15rem;
     max-width: 107rem;
-    padding: 0 2rem;
+    padding: 0 4rem;
 }
 
 .hero-text{
@@ -101,3 +101,48 @@ li a {
     text-decoration: none;
     color: black;
 }
+
+
+.about {
+    background-color: #fff;
+    padding: 2rem 0;
+}
+
+.about-content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 3.5rem;
+}
+
+.img-side_about {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 1.5rem;
+}
+
+.text-side h3 {
+    color: #147efb;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.text-side h4 {
+    color: #2d2e32;
+    font-family: Poppins,sans-serif;
+    font-size: 1.60rem;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+}
+
+.text-side p {
+    color: #767676;
+    font-family: Mulish,sans-serif;
+    font-size: 1.10rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
