@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #fff;
+    font-family: Poppins,sans-serif;
+    position: relative;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -49,10 +55,35 @@ li a {
 }
 
 .container {
-    margin: 15rem;
+    margin: 10rem;
     max-width: 107rem;
     padding: 0 4rem;
 }
+
+.container-about {
+    margin: 10rem;
+    max-width: 107rem;
+    padding: 0 4rem;
+}
+
+.container-projects {
+    margin: 10rem;
+    max-width: 107rem;
+    padding: 0 4rem;
+}
+
+.container-contact {
+    margin: 10rem;
+    max-width: 107rem;
+    padding: 0 4rem;
+}
+
+.container-footer {
+
+    max-width: 107rem;
+    padding: 0 4rem;
+}
+
 
 .hero-text{
     font-size: 2.5rem;
@@ -66,6 +97,8 @@ li a {
 }
 
 .hero-text p {
+    margin-top: 16px;
+    margin-bottom: 16px;
     color: #555;
     font-family: Mulish,sans-serif;
     font-size: 1.4rem;
@@ -144,5 +177,114 @@ li a {
     font-size: 1.10rem;
     font-weight: 500;
     line-height: 1.5;
+}
+
+
+.projects {
+    background-color: #f9f9f9;
+    padding: 5rem 0;
+}
+
+.project-content p {
+    color: #147efb;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.project-content h3 {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #2d2e32;
+}
+
+.contact {
+    background-color: #fff;
+    padding: 4rem 0;
+}
+
+.contact_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_title p {
+    color: #147efb;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.contact_title h3 {
+    color: #2d2e32;
+    font-size: 2rem;
+}
+
+.contact_icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.contact_icon-box {
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.contact_icon-box span{
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    color: #147efb;
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+    width: 5rem;
+    font-size: 25px;
+}
+
+.contact_info {
+    font-size: 15px;
+}
+
+.contact_info h3 {
+    margin-bottom: 10px;
+
+}
+
+
+.container-footer{
+    color: #fff;
+}
+
+footer {
+    background-color: #2d2e32;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.footerc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerc h3 {
+    font-size: 15px;
+}
+
+.footerc_socials{
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.footerc_socials a{
+    color: #fff;
+    margin-right: 1rem;
 }
 
